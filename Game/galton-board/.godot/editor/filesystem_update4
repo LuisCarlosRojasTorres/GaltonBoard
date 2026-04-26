@@ -1,11 +1,4 @@
-res://structure/structure.tscn
-res://structure/board.tscn
 res://GameUi.tscn
-res://pivots/pivot_struct.tscn
-res://pivots/pivot_row.tscn
-res://ball/ball.tscn
 res://game_ui.gd
-res://pieces/column.tscn
-res://pieces/bigcolumn.tscn
-res://pieces/columns.tscn
-res://pivots/pivot.tscn
+res://ui/MenuFinished.tscn
+res://ui/menu_finished.gd

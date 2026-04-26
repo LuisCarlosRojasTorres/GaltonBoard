@@ -1,9 +1,11 @@
 extends Node2D
 
 const SCENE_BALL = preload("res://ball/ball.tscn")
+const SCENE_END = preload("res://ui/MenuFinished.tscn")
+
 const ORIGIN_X = 242.5
 const ORIGIN_Y = 0
-const NUM_OF_BALLS = 500
+const NUM_OF_BALLS = 50
 
 var current_number_of_balls = 0
 # Called when the node enters the scene tree for the first time.
@@ -24,5 +26,9 @@ func lauch_ball():
 func _on_timer_timeout() -> void:
 	if current_number_of_balls < NUM_OF_BALLS:
 		lauch_ball()
-		current_number_of_balls = current_number_of_balls + 1
 		
+	elif current_number_of_balls == NUM_OF_BALLS:
+		var end_instance = SCENE_END.instantiate()		
+		add_child(end_instance)
+		
+	current_number_of_balls = current_number_of_balls + 1

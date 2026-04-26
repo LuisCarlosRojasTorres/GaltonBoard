@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bnxn173sxxbh"]
+
+[ext_resource type="PackedScene" uid="uid://cf5caet1dgeyy" path="res://pieces/columns.tscn" id="1_o51xu"]
+[ext_resource type="PackedScene" uid="uid://b74jt7e6hcp2c" path="res://pieces/row.tscn" id="2_d8hwo"]
+
+[node name="Structure" type="Node"]
+
+[node name="Columns" parent="." instance=ExtResource("1_o51xu")]
+position = Vector2(6, 900)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("2_d8hwo")]
+position = Vector2(377, 1131)

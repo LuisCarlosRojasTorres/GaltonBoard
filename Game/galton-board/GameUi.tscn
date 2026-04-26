@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdsbefox3w6bf"]
+
+[ext_resource type="PackedScene" uid="uid://bnxn173sxxbh" path="res://structure/structure.tscn" id="1_0agcn"]
+[ext_resource type="PackedScene" uid="uid://dwyflspytl0gc" path="res://pivots/pivot_struct.tscn" id="2_0agcn"]
+
+[node name="GameUi" type="Node2D"]
+position = Vector2(0, 3)
+
+[node name="Structure" parent="." instance=ExtResource("1_0agcn")]
+
+[node name="PivotStruct" parent="." instance=ExtResource("2_0agcn")]
+position = Vector2(0, 243)

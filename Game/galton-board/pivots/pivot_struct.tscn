@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwyflspytl0gc"]
+
+[ext_resource type="PackedScene" uid="uid://xj8qnr12kyc8" path="res://pivots/pivot_row.tscn" id="1_l50wk"]
+
+[node name="PivotStruct" type="Node2D"]
+position = Vector2(0, -343)
+
+[node name="PitosRow" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(0, 350)
+
+[node name="PitosRow2" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(0, 300)
+
+[node name="PitosRow3" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(0, 250)
+
+[node name="PitosRow4" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(0, 200)
+
+[node name="PitosRow5" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(0, 150)
+
+[node name="PitosRow6" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(0, 100)
+
+[node name="PitosRow7" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(0, 50)
+
+[node name="PitosRow8" parent="." instance=ExtResource("1_l50wk")]
+
+[node name="PitosRow9" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(0, -50)
+
+[node name="PitosRow10" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(0, -100)
+
+[node name="PitosRow11" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(1, -150)
+
+[node name="PitosRow12" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(1, -200)
+
+[node name="PitosRow13" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(1, -250)
+
+[node name="PitosRow14" parent="." instance=ExtResource("1_l50wk")]
+position = Vector2(1, -300)

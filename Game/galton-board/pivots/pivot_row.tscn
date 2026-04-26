@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=3 uid="uid://xj8qnr12kyc8"]
+
+[ext_resource type="PackedScene" uid="uid://dkrq3jauhbqri" path="res://pivots/pivot.tscn" id="1_uthdb"]
+
+[node name="PitosRow" type="Node2D"]
+
+[node name="Pivot" parent="." instance=ExtResource("1_uthdb")]
+
+[node name="Pivot2" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(50, 0)
+
+[node name="Pivot3" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(100, 0)
+
+[node name="Pivot4" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(150, 0)
+
+[node name="Pivot5" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(200, 0)
+
+[node name="Pivot6" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(250, 0)
+
+[node name="Pivot7" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(300, 0)
+
+[node name="Pivot8" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(350, 0)
+
+[node name="Pivot9" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(400, 0)
+
+[node name="Pivot10" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(450, 0)
+
+[node name="Pivot11" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(500, 0)
+
+[node name="Pivot12" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(550, 0)
+
+[node name="Pivot13" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(600, 0)
+
+[node name="Pivot14" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(650, 0)
+
+[node name="Pivot15" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(700, 0)
+
+[node name="Pivot16" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(750, 0)

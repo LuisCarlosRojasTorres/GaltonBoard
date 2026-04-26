@@ -6,7 +6,8 @@
 [node name="Structure" type="Node"]
 
 [node name="Columns" parent="." instance=ExtResource("1_o51xu")]
-position = Vector2(6, 900)
+position = Vector2(-1, 911)
 
 [node name="StaticBody2D" parent="." instance=ExtResource("2_d8hwo")]
-position = Vector2(377, 1131)
+position = Vector2(324, 1137)
+scale = Vector2(0.75, 0.75)

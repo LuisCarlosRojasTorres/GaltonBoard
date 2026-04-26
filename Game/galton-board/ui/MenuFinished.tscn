@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://d0nfa6cvuirbq"]
+[gd_scene load_steps=3 format=3 uid="uid://d0nfa6cvuirbq"]
 
 [ext_resource type="Script" uid="uid://dyxtw1jo1nwir" path="res://ui/menu_finished.gd" id="1_ik85h"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ik85h"]
+font_size = 40
 
 [node name="MenuFinished" type="CanvasLayer"]
 script = ExtResource("1_ik85h")
@@ -21,13 +24,16 @@ grow_vertical = 2
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 text = "Simulation Finished!"
+label_settings = SubResource("LabelSettings_ik85h")
 
 [node name="Button_continue" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 40
 text = "Continue?"
 
 [node name="Button_run_again" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 40
 text = "Run Again"
 
 [connection signal="button_down" from="VBoxContainer/Button_continue" to="." method="_on_button_continue_button_down"]

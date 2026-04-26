@@ -5,7 +5,7 @@ const SCENE_END = preload("res://ui/MenuFinished.tscn")
 
 const ORIGIN_X = 242.5
 const ORIGIN_Y = 0
-const NUM_OF_BALLS = 50
+const NUM_OF_BALLS = 5
 
 var current_number_of_balls = 0
 # Called when the node enters the scene tree for the first time.

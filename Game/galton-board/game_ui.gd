@@ -1,9 +1,9 @@
 extends Node2D
 
 const SCENE_BALL = preload("res://ball/ball.tscn")
-const ORIGIN_X = 350
+const ORIGIN_X = 242.5
 const ORIGIN_Y = 0
-const NUM_OF_BALLS = 50
+const NUM_OF_BALLS = 500
 
 var current_number_of_balls = 0
 # Called when the node enters the scene tree for the first time.

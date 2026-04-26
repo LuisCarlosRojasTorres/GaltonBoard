@@ -4,10 +4,10 @@
 [ext_resource type="PackedScene" uid="uid://b74jt7e6hcp2c" path="res://pieces/row.tscn" id="2_d8hwo"]
 
 [node name="Structure" type="Node2D"]
+scale = Vector2(0.75, 0.75)
 
 [node name="Columns" parent="." instance=ExtResource("1_o51xu")]
-position = Vector2(-1, 911)
+position = Vector2(93.33333, 897.3334)
 
 [node name="StaticBody2D" parent="." instance=ExtResource("2_d8hwo")]
-position = Vector2(324, 1137)
-scale = Vector2(0.75, 0.75)
+position = Vector2(322.66666, 1153.3334)

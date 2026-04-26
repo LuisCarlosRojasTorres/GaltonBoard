@@ -5,14 +5,15 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_ixybf"]
 radius = 20.09975
 
-[node name="RigidBody2D" type="RigidBody2D"]
+[node name="Ball" type="RigidBody2D"]
+mass = 10.0
 contact_monitor = true
 max_contacts_reported = 15
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.25, 0.25)
 texture = ExtResource("1_6plaf")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.25, 0.25)
 shape = SubResource("CircleShape2D_ixybf")

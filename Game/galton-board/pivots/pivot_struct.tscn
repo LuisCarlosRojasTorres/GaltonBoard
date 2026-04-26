@@ -3,40 +3,39 @@
 [ext_resource type="PackedScene" uid="uid://xj8qnr12kyc8" path="res://pivots/pivot_row.tscn" id="1_l50wk"]
 
 [node name="PivotStruct" type="Node2D"]
-position = Vector2(0, -343)
 
 [node name="PitosRow2" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(25, 300)
+position = Vector2(17.5, 0)
 
 [node name="PitosRow3" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(0, 250)
+position = Vector2(0, 35)
 
 [node name="PitosRow4" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(25, 200)
+position = Vector2(17.5, 70)
 
 [node name="PitosRow5" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(0, 150)
+position = Vector2(0, 105)
 
 [node name="PitosRow6" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(25, 100)
+position = Vector2(17.5, 140)
 
 [node name="PitosRow7" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(0, 50)
+position = Vector2(0, 175)
 
 [node name="PitosRow8" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(25, 0)
+position = Vector2(17.5, 210)
 
 [node name="PitosRow9" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(0, -50)
+position = Vector2(0, 245)
 
 [node name="PitosRow10" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(25, -100)
+position = Vector2(17.5, 280)
 
 [node name="PitosRow11" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(1, -150)
+position = Vector2(1, 315)
 
 [node name="PitosRow12" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(25, -200)
+position = Vector2(17.5, 350)
 
 [node name="PitosRow13" parent="." instance=ExtResource("1_l50wk")]
-position = Vector2(1, -250)
+position = Vector2(1, 385)

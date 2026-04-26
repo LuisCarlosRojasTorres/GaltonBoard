@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://dq8046l1d6e8p"]
+
+[ext_resource type="Texture2D" uid="uid://dks0cidqfup1g" path="res://assets/floor/end.png" id="1_my4ve"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cgnu1"]
+size = Vector2(1264, 20)
+
+[node name="StaticBody2D2" type="StaticBody2D"]
+rotation = 0.7853982
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 0.7853982
+scale = Vector2(1.5, 0.5)
+texture = ExtResource("1_my4ve")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.7071096, -0.7071096)
+rotation = 0.7853982
+scale = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_cgnu1")

@@ -5,39 +5,40 @@
 [node name="PitosRow" type="Node2D"]
 
 [node name="Pivot" parent="." instance=ExtResource("1_uthdb")]
+position = Vector2(0, 1)
 
 [node name="Pivot2" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(50, 0)
+position = Vector2(35, 0)
 
 [node name="Pivot3" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(100, 0)
+position = Vector2(70, 0)
 
 [node name="Pivot4" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(150, 0)
+position = Vector2(105, 1)
 
 [node name="Pivot5" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(200, 0)
+position = Vector2(140, 1)
 
 [node name="Pivot6" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(250, 0)
+position = Vector2(175, 1)
 
 [node name="Pivot7" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(300, 0)
+position = Vector2(210, 1)
 
 [node name="Pivot8" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(350, 0)
+position = Vector2(210, 1)
 
 [node name="Pivot9" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(400, 0)
+position = Vector2(245, 1)
 
 [node name="Pivot10" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(450, 0)
+position = Vector2(280, 1)
 
 [node name="Pivot11" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(500, 0)
+position = Vector2(315, 1)
 
 [node name="Pivot12" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(550, 0)
+position = Vector2(350, 1)
 
 [node name="Pivot13" parent="." instance=ExtResource("1_uthdb")]
-position = Vector2(600, 0)
+position = Vector2(385, 1)

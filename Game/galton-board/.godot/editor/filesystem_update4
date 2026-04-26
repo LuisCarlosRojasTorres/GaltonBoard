@@ -2,3 +2,5 @@ res://GameUi.tscn
 res://game_ui.gd
 res://ui/MenuFinished.tscn
 res://ui/menu_finished.gd
+res://structure/structure.tscn
+res://structure/board.tscn

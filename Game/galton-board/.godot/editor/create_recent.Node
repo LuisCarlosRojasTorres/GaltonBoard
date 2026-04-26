@@ -1,7 +1,8 @@
 Node2D
-StaticBody2D
+Timer
 CollisionShape2D
 Sprite2D
 RigidBody2D
+StaticBody2D
 HBoxContainer
 Node

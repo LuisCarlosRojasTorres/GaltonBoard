@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dcnsgwxxxcqsd"]
+
+[ext_resource type="Texture2D" uid="uid://b34j2a2wytrir" path="res://assets/enemies/barrel_yellow.png" id="1_6plaf"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ixybf"]
+radius = 20.09975
+
+[node name="RigidBody2D" type="RigidBody2D"]
+contact_monitor = true
+max_contacts_reported = 15
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_6plaf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.5, 0.5)
+shape = SubResource("CircleShape2D_ixybf")

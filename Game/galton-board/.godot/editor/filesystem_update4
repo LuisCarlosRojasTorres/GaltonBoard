@@ -1,10 +1,3 @@
-res://pieces/column.tscn
-res://pieces/row.tscn
-res://structure/structure.tscn
-res://pieces/pivot.tscn
 res://pivots/pivot.tscn
-res://pivots/pitos_row.tscn
-res://GameUi.tscn
-res://pivots/pivot_struct.tscn
-res://pivots/pivot_row.tscn
-res://pieces/columns.tscn
+res://test_balls.tscn
+res://ball/ball.tscn

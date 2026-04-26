@@ -1,12 +1,25 @@
-[gd_scene load_steps=3 format=3 uid="uid://cdsbefox3w6bf"]
+[gd_scene load_steps=5 format=3 uid="uid://cdsbefox3w6bf"]
 
 [ext_resource type="PackedScene" uid="uid://bnxn173sxxbh" path="res://structure/structure.tscn" id="1_0agcn"]
+[ext_resource type="Script" uid="uid://bfjkil4awavna" path="res://game_ui.gd" id="1_ixybf"]
 [ext_resource type="PackedScene" uid="uid://dwyflspytl0gc" path="res://pivots/pivot_struct.tscn" id="2_0agcn"]
+[ext_resource type="PackedScene" uid="uid://dcnsgwxxxcqsd" path="res://ball/ball.tscn" id="3_tlnrn"]
 
 [node name="GameUi" type="Node2D"]
-position = Vector2(-25, 2)
+position = Vector2(-25, 0)
+script = ExtResource("1_ixybf")
 
 [node name="Structure" parent="." instance=ExtResource("1_0agcn")]
+position = Vector2(24, 8)
 
 [node name="PivotStruct" parent="." instance=ExtResource("2_0agcn")]
-position = Vector2(48, 308)
+position = Vector2(48, 375)
+
+[node name="RigidBody2D" parent="." instance=ExtResource("3_tlnrn")]
+position = Vector2(350, 0)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.2
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

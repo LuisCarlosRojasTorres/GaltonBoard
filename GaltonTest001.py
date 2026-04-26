@@ -20,7 +20,7 @@ def mean(data):
 
 
 numOfAttemps = 10000
-numOfLevels = 14
+numOfLevels = 9
 
 lista_x = list(range(0, numOfLevels+1)) 
 lista_y = [0]*(numOfLevels+1)

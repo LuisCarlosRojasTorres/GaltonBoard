@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://dx2f0068vvw05"]
+
+[ext_resource type="PackedScene" uid="uid://xj8qnr12kyc8" path="res://pivots/pivot_row.tscn" id="1_uppc0"]
+[ext_resource type="PackedScene" uid="uid://dcnsgwxxxcqsd" path="res://ball/ball.tscn" id="2_50xmu"]
+[ext_resource type="PackedScene" uid="uid://b74jt7e6hcp2c" path="res://pieces/row.tscn" id="3_50xmu"]
+
+[node name="TestBalls" type="Node2D"]
+
+[node name="PitosRow" parent="." instance=ExtResource("1_uppc0")]
+position = Vector2(22, 55)
+
+[node name="RigidBody2D" parent="." instance=ExtResource("2_50xmu")]
+position = Vector2(272, 8)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("3_50xmu")]
+position = Vector2(203, 111)
